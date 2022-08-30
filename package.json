@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/EddieRAM/bravi-teste#readme",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14"
   }
 }
