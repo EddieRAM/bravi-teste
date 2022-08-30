@@ -1,0 +1,21 @@
+{
+  "name": "suportes-balanceados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contextValidation.js",
+  "scripts": {
+    "start": "node run dev",
+    "test": "jest",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.0.1",
+    "lint": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
