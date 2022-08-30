@@ -1,4 +1,4 @@
-# Desafio 01 - Suportes Balanceados
+# Desafio 02 - API de Contatos
 
 Solução da segunra tarefa da avaliação técnica da Bravi.
 
