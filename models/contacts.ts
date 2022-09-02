@@ -9,15 +9,11 @@ const create = async (contact: IContacts): Promise<void> => {
   );
 };
 
-const findContacts = async (contacts: string): Promise<IContacts | null> => {
+const getAll = async (): Promise<IContacts[]> => {
   const [result] = await connection.execute<RowDataPacket[]>(
     `SELECT * FROM Contacts`,
-    [contacts],
   );
-
-  if (!result.length) return null;
-  return result[0] as IContacts;
+  return result[0] as IContacts[];
 };
 
-
-export { create, findContacts };
+export { create, getAll };

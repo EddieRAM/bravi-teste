@@ -10,6 +10,6 @@ atualizar, obter e excluir as pessoas e os contatos.
 
 ## Como utilizar a API:
 
--Clone o repositório;
--Entre na pasta do repositório local;
--Digite npm install no terminal;
+- Clone o repositório;
+- Entre na pasta do repositório local;
+- Digite npm install no terminal;
